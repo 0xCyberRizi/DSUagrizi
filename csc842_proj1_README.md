@@ -1,21 +1,21 @@
 [Why am I interested in Honeypots]
 ===
-    I am interested because I have never created one before. I am interested in developing a honeypot tool because it provides valuable insights into cyber threats and enhances my cybersecurity skills. By creating a Python honeypot, I can actively observe and analyze malicious activities, understand emerging threats, and strengthen my defenses. It also offers hands-on learning, experimentation, and the opportunity to contribute to the cybersecurity community.
+   I am interested because I have never created one before. I am interested in developing a honeypot tool because it provides valuable insights into cyber threats and enhances my cybersecurity skills. By creating a Python honeypot, I can actively observe and analyze malicious activities, understand emerging threats, and strengthen my defenses. It also offers hands-on learning, experimentation, and the opportunity to contribute to the cybersecurity community.
 
 [Three Simple Main Ideas]
 ===
-    Creating a honeypot allows you to learn key concepts in cybersecurity. Here are three main ideas you can acquire:
+   Creating a honeypot allows you to learn key concepts in cybersecurity. Here are three main ideas you can acquire:
 
-    Attack Methods
+   Attack Methods
 	By observing and analyzing attacker activities, honeypot creation helps you grasp their techniques and identify emerging threats.
 
-    Network Monitoring/Intrusion Detection
+   Network Monitoring/Intrusion Detection
 	Operating a honeypot involves monitoring network traffic, detecting unauthorized access attempts, and strengthening network security skills.
 
-    Incident Response/Forensic Analysis
+   Incident Response/Forensic Analysis
 	Honeypots provide hands-on experience in incident response and forensic analysis, allowing you to investigate attacker actions and develop incident handling expertise.
 
-    In summary, honeypot creation helps you understand attack methods, improve network monitoring and intrusion detection skills, and develop incident response and forensic analysis capabilities, all of which contribute to a solid foundation in cybersecurity.
+   In summary, honeypot creation helps you understand attack methods, improve network monitoring and intrusion detection skills, and develop incident response and forensic analysis capabilities, all of which contribute to a solid foundation in cybersecurity.
 
 
 [ Limitations and and Future Improvements]
