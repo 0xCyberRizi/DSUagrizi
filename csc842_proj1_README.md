@@ -29,7 +29,7 @@
    [Scalability and Performance]
 	The code's scalability and performance considerations are not explicitly addressed. Future work can focus on optimizing the code to handle a larger number of concurrent connections efficiently and exploring load balancing techniques for distributing the workload.
 
-	By addressing these limitations and considering future improvements in customization, logging and analysis, and scalability and performance, the honeypot can become more effective and robust.
+   By addressing these limitations and considering future improvements in customization, logging and analysis, and scalability and performance, the honeypot can become more effective and robust.
 
 SweetVenom Honeypot README
 ===
