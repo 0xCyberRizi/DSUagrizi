@@ -22,7 +22,7 @@ Video: https://youtu.be/7FxKS_6IYpA
    In summary, honeypot creation helps you understand attack methods, improve network monitoring and intrusion detection skills, and develop incident response and forensic analysis capabilities, all of which contribute to a solid foundation in cybersecurity.
 
 
-[ Limitations and and Future Improvements]
+[ Limitations and Future Improvements]
 ===
    [Customization]
 	The current code allows limited customization of responses for specific ports. Enhancements can be made to expand the customization options, allowing for more dynamic and varied responses based on attacker behavior or specific conditions.
