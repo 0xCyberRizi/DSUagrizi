@@ -1,5 +1,5 @@
 # CerealSpiller Keylogger
-CerealSpiller is a simple keylogger script written in Python. It captures keystrokes entered by the user and stores them in a file. The script also provides basic encryption functionality to encrypt the captured keystrokes.
+CerealSpiller is a simple keylogger script written in Python. It captures keystrokes entered by the user and stores them in a file. The script also provides basic encryption functionality to encrypt the captured keystrokes. It also include a decrypter script. Purpose of encryption of text to reduce changes of being discovered through deep packet technology. Generic file naming convention intentionally  created for ease of instruction and not for obfucation.
 
 ## Features
 - **Keystroke Logging**: The script captures keystrokes, including normal characters, special keys (e.g., Space, Enter, Backspace), and Ctrl + C, and logs them to a file.
