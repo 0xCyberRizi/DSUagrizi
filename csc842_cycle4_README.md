@@ -61,6 +61,6 @@ To use this script, follow these steps:
 
 Run the script with the following command:
 
-#python3 CleanBowl.py
-#Enter the path of the encrypted file: file name
-#Enter the password (default password is 'p4ssw0rdp4ssw0rdp4ssw0rd'): p4ssw0rdp4ssw0rdp4ssw0rd
+python3 CleanBowl.py\
+Enter the path of the encrypted file: file name\
+Enter the password (default password is 'p4ssw0rdp4ssw0rdp4ssw0rd'): p4ssw0rdp4ssw0rdp4ssw0rd\
