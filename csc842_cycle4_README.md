@@ -58,13 +58,6 @@ To use this script, follow these steps:
 
 Run the script with the following command:
 
-python decrypt_file.py <encrypted_file_path> <fernet_key>
-
-Replace <encrypted_file_path> with the path to the encrypted file you want to decrypt, and <fernet_key> with the encryption key used for encryption.
-
-For example:
-
-    python decrypt_file.py encrypted_file.txt.encrypted my-fernet-key
-
-Please note that you need to replace <encrypted_file_path> and <fernet_key> with the actual values when running the script.
-
+python3 CleanBowl.py
+Enter the path of the encrypted file: file name
+Enter the password (default password is 'p4ssw0rdp4ssw0rdp4ssw0rd'): p4ssw0rdp4ssw0rdp4ssw0rd
