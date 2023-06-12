@@ -35,7 +35,10 @@ The keylogging process can be terminated gracefully by pressing the Escape key. 
 2. Encrypts the captured keystrokes using the provided password.
 3. Exits the program.
 
-# File Decryption Script
+# File Decryption Script - Cleanbowl.py
+
+Having small issue with Cleanbowl decrypting
+
 This script allows you to decrypt an encrypted file using the Fernet encryption scheme from the cryptography library in Python.
 Prerequisites
 
