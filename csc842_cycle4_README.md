@@ -8,7 +8,7 @@ CerealSpiller is a simple keylogger script written in Python. It captures keystr
 
 ## Requirements
 - Python 3.x
-- Install dependencies by running `pip install cryptography pynput `
+- Install dependencies by running `pip install cryptography also pynput `
 
 ## Usage
 1. Run the script by executing the following command: `python CerealSpiller.py`.
