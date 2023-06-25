@@ -1,4 +1,4 @@
-Draupnir Fikse - Cell Tower Fix
+Draupnir - Cell Tower Triangulation Tool
 ===
 This is a Python v3.8 script called "Draupnir Fikse" that generates a KML file with a circle overlay for a cell tower. The KML file can be used to visualize the coverage area of the cell tower on various KML viewers.
 Features
