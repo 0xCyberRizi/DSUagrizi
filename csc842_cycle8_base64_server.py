@@ -12,10 +12,10 @@ from datetime import datetime
 import base64
 
 # Read server IP, port, bot IP, and file location from user input
-hostIP = input("Enter the server IP (default: 172.16.1.108): ") or "172.16.1.108"
+hostIP = input("Enter the server IP (default: 127.0.0.1): ") or "127.0.0.1"
 serverPort = input("Enter the server port (default: 80): ") or 80
 serverPort = int(serverPort)
-botIP = input("Enter the bot IP address (default: 172.16.1.102): ") or "172.16.1.102"
+botIP = input("Enter the Client IP address (default: 127.0.0.1): ") or "127.0.0.1"
 fileLocation = input("Enter the file location (default: /home/ubuntu/Desktop/): ") or "/home/ubuntu/Desktop/"
 botIP = botIP.replace(".", "_")
 
