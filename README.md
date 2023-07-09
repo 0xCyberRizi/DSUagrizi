@@ -35,6 +35,24 @@ To succeed in this course, it is recommended to have prior knowledge and experie
     Networking concepts
     Information security principles
 
+    Client:
+
+    import requests
+    import subprocess
+    import time
+    import os
+    import base64
+    import datetime
+
+    Server:
+
+    import os
+    import cgi
+    import threading
+    from http.server import HTTPServer, BaseHTTPRequestHandler
+    from socketserver import ThreadingMixIn
+    from datetime import datetime
+    import base64
 
 Resources
 ===
