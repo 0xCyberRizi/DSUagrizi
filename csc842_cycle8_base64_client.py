@@ -11,7 +11,7 @@ import base64
 import datetime
 
 # User input for host
-host = input("Enter the server IP (default: 172.16.1.108): ") or '172.16.1.108'
+host = input("Enter the server IP (default: 127.0.0.1): ") or '127.0.0.1'
 # User input for port
 port = input("Enter the port (default: 80): ") or 80
 
