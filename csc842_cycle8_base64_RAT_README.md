@@ -48,6 +48,25 @@ Instructions
 
 pip install base64
 
+    Client:
+
+    import requests
+    import subprocess
+    import time
+    import os
+    import base64
+    import datetime
+
+    Server:
+
+    import os
+    import cgi
+    import threading
+    from http.server import HTTPServer, BaseHTTPRequestHandler
+    from socketserver import ThreadingMixIn
+    from datetime import datetime
+    import base64
+
 Run the program using Python 3 by executing the following command:
 
     python3 server.py
@@ -66,9 +85,7 @@ You can customize the following parameters when running the program:
 When the server is running, you can interact with it by entering commands in the server shell. The server will send the commands to the client, execute them, and save the results to a file. Additionally, if the server receives an uploaded file from the client, it will save the file to the specified file location.
 
 Note: It's important to ensure that the server and client are running on the same network and can reach each other's IP addresses.
-User
-include references
-ChatGPT
+
 Server-Client Connection with Base64 Command Execution
 
 This is a server-client program that establishes a connection between the server and the client. The server can execute base64 encoded commands received from the client and decode the information. This program is developed as part of the DSU Class CSC842 Security Tool Development, taught by Professor Welu.
@@ -99,17 +116,19 @@ pip install base64
 
 Run the program using Python 3 by executing the following command:
 
-    python3 server.py
+    sudo python3 server.py
 
     This will start the server and display the server IP and port where it's listening for connections.
 
+    python3 client.py
+    
 Customization
 
 You can customize the following parameters when running the program:
 
-    Server IP: The IP address of the server. The default value is 172.16.1.108.
+    Server IP: The IP address of the server. The default value is 127.0.0.1
     Server Port: The port number on which the server listens for connections. The default value is 80.
-    Bot IP Address: The IP address of the client (bot) that connects to the server. The default value is 172.16.1.102.
+    Bot IP Address: The IP address of the client (bot) that connects to the server. The default value is 127.0.0.1.
     File Location: The directory where the command results and uploaded files will be saved. The default location is /home/ubuntu/Desktop/. You can change it to a different directory by providing the appropriate path.
 
 When the server is running, you can interact with it by entering commands in the server shell. The server will send the commands to the client, execute them, and save the results to a file. Additionally, if the server receives an uploaded file from the client, it will save the file to the specified file location.
