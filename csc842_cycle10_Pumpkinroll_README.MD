@@ -16,32 +16,49 @@ PumpkinRoll supports searching for strings based on regular expressions. Users c
 
 PumpkinRoll enables the identification of cross-references within the Ghidra program. It retrieves references to specific addresses and provides information about the source, destination, and type of each reference.
 
+Requirement:
+===
+VMWare recommended
+Windows 7+ with FLAREVM
+Ghidra version 9+
+VSCODE Text editor recommended not required
+
+Practical Malware Analysis Binaries
+
+https://github.com/mikesiko/PracticalMalwareAnalysis-Labs
+
+
+
+
+
+
 Limitations
 ===
-    Language and Environment: PumpkinRoll is designed specifically for use with the Ghidra framework and may not be compatible with other disassemblers or analysis tools.
 
-    The string analysis feature relies on regular expressions to find matching strings. However, the effectiveness of regular expressions depends on the complexity and accuracy of the provided patterns.
+Language and Environment: PumpkinRoll is designed specifically for use with the Ghidra framework and may not be compatible with other disassemblers or analysis tools.
 
-    Depending on the size and complexity of the Ghidra program, the analysis performed by PumpkinRoll may take a significant amount of time and system resources.
+The string analysis feature relies on regular expressions to find matching strings. However, the effectiveness of regular expressions depends on the complexity and accuracy of the provided patterns.
 
-    PumpkinRoll relies on user input to select the analysis options. This may limit its ability to be fully automated or integrated into larger analysis workflows.
+Depending on the size and complexity of the Ghidra program, the analysis performed by PumpkinRoll may take a significant amount of time and system resources.
+
+PumpkinRoll relies on user input to select the analysis options. This may limit its ability to be fully automated or integrated into larger analysis workflows.
 
 Challenges
 ===
-    API Compatibility: Ghidra is a complex framework with frequent updates. Ensuring compatibility and adapting to changes in the Ghidra API may present challenges when maintaining and updating PumpkinRoll.
 
-    Data Extraction and Parsing: Extracting relevant information from the Ghidra program and parsing it accurately can be challenging due to the variety of data structures and formats used.
+API Compatibility: Ghidra is a complex framework with frequent updates. Ensuring compatibility and adapting to changes in the Ghidra API may present challenges when maintaining and updating PumpkinRoll.
 
-    Performance Optimization: Analyzing large programs efficiently and minimizing resource usage can be challenging. Optimizations may be required to handle complex programs within reasonable time frames.
+Data Extraction and Parsing: Extracting relevant information from the Ghidra program and parsing it accurately can be challenging due to the variety of data structures and formats used.
 
-    Error Handling: Handling unexpected situations, such as invalid user input or exceptions during analysis, requires robust error handling to provide meaningful feedback and prevent script failures.
+Performance Optimization: Analyzing large programs efficiently and minimizing resource usage can be challenging. Optimizations may be required to handle complex programs within reasonable time frames.
 
 Future Possible Upgrades
 ===
-    Graphical User Interface (GUI): Adding a GUI to PumpkinRoll would enhance the user experience by providing a visual interface for selecting analysis options and displaying results.
 
-    Script Automation: Enabling the automation of specific analysis tasks or the execution of PumpkinRoll as part of a larger analysis workflow could improve efficiency and integration with other tools.
+Improved Graphical User Interface (GUI): Adding a GUI to PumpkinRoll would enhance the user experience by providing a visual interface for selecting analysis options and displaying results.
 
-    Enhanced String Analysis: Adding advanced string analysis capabilities, such as custom filters and context-aware matching, would provide more comprehensive and accurate results.
+Script Automation: Enabling the automation of specific analysis tasks or the execution of PumpkinRoll as part of a larger analysis workflow could improve efficiency and integration with other tools.
 
-    Integration with External Tools: Integrating PumpkinRoll with other analysis tools or frameworks would enhance its capabilities and allow for more advanced program analysis and visualization.
+Enhanced String Analysis: Adding advanced string analysis capabilities, such as custom filters and context-aware matching, would provide more comprehensive and accurate results.
+
+Integration with External Tools: Integrating PumpkinRoll with other analysis tools or frameworks would enhance its capabilities and allow for more advanced program analysis and visualization.
