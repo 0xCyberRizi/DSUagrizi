@@ -18,10 +18,10 @@ PumpkinRoll enables the identification of cross-references within the Ghidra pro
 
 Requirement:
 ===
-VMWare recommended
-Windows 7+ with FLAREVM
-Ghidra version 9+
-VSCODE Text editor recommended not required
+  VMWare recommended
+  Windows 7+ with FLAREVM
+  Ghidra version 9+
+  VSCODE Text editor recommended not required
 
 Practical Malware Analysis Binaries
 
