@@ -8,17 +8,13 @@ I created PumpkinRoll to automate common analysis tasks in Ghidra, simplifying t
 By providing a user-friendly interface and integrating with Ghidra's APIs, PumpkinRoll aims to enhance the efficiency and productivity of Ghidra users during program analysis.
 Main Ideas
 
-   PumpkinRoll can find and display the functions within the current Ghidra program. 
-	It utilizes the Ghidra Decompiler API to decompile functions and extract information such as function names and the functions they call.
+PumpkinRoll can find and display the functions within the current Ghidra program. It utilizes the Ghidra Decompiler API to decompile functions and extract information such as function names and the functions they call.
 
-   PumpkinRoll can iterate over the instructions in the current Ghidra program 
-	and print information about each instruction, including the address, mnemonic, and operands.
+PumpkinRoll can iterate over the instructions in the current Ghidra program and print information about each instruction, including the address, mnemonic, and operands.
 
-    PumpkinRoll supports searching for strings based on regular expressions. 
-	Users can provide a file containing regular expressions, and PumpkinRoll will search for matching strings within the program.
+PumpkinRoll supports searching for strings based on regular expressions. Users can provide a file containing regular expressions, and PumpkinRoll will search for matching strings within the program.
 
-    PumpkinRoll enables the identification of cross-references within the Ghidra program. 
-	It retrieves references to specific addresses and provides information about the source, destination, and type of each reference.
+PumpkinRoll enables the identification of cross-references within the Ghidra program. It retrieves references to specific addresses and provides information about the source, destination, and type of each reference.
 
 Limitations
 ===
