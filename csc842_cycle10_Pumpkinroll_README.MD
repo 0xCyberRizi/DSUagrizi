@@ -19,14 +19,25 @@ PumpkinRoll enables the identification of cross-references within the Ghidra pro
 Requirement:
 ===
   VMWare recommended 
-  Windows 7+ with FLAREVM \n
-  Ghidra version 9+ \n
-  VSCODE Text editor recommended not required \n
+  Windows 7+ with FLAREVM
+  Ghidra version 9+
+  VSCODE Text editor recommended not required
 
 Practical Malware Analysis Binaries
 
 https://github.com/mikesiko/PracticalMalwareAnalysis-Labs
 
+How to Use with Ghidra
+===
+To use this script with Ghidra, follow these steps:
+
+    Open Ghidra and load the desired program or binary.
+    Open the Ghidra Python Script Manager by navigating to Window -> Script Manager.
+    Create a new script or open an existing one.
+    Copy the contents of the provided script into the Ghidra Python Script Manager.
+    Save the script and click the "Run" button to execute it.
+    Follow the script prompts to select a file containing regular expressions or definitions.
+    The script will identify and extract matching strings based on the specified regular expressions, displaying the results in the Ghidra console or output window.
 
 
 
